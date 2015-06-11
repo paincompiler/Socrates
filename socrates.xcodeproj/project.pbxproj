@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB035531B291FA800A17E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035521B291FA800A17E10 /* AppDelegate.swift */; };
+		1FB035551B291FA800A17E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035541B291FA800A17E10 /* ViewController.swift */; };
+		1FB035581B291FA800A17E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB035561B291FA800A17E10 /* Main.storyboard */; };
+		1FB0355A1B291FA800A17E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB035591B291FA800A17E10 /* Assets.xcassets */; };
+		1FB0355D1B291FA800A17E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */; };
+		1FB035681B291FA800A17E10 /* socratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035671B291FA800A17E10 /* socratesTests.swift */; };
+		1FB035731B291FA800A17E10 /* socratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035721B291FA800A17E10 /* socratesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB035641B291FA800A17E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB035471B291FA800A17E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB0354E1B291FA800A17E10;
+			remoteInfo = socrates;
+		};
+		1FB0356F1B291FA800A17E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB035471B291FA800A17E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB0354E1B291FA800A17E10;
+			remoteInfo = socrates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FB0354F1B291FA800A17E10 /* socrates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socrates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB035521B291FA800A17E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB035541B291FA800A17E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB035571B291FA800A17E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB035591B291FA800A17E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB0355C1B291FA800A17E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB0355E1B291FA800A17E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB035631B291FA800A17E10 /* socratesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socratesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB035671B291FA800A17E10 /* socratesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesTests.swift; sourceTree = "<group>"; };
+		1FB035691B291FA800A17E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB0356E1B291FA800A17E10 /* socratesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socratesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB035721B291FA800A17E10 /* socratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesUITests.swift; sourceTree = "<group>"; };
+		1FB035741B291FA800A17E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB0354C1B291FA800A17E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB035601B291FA800A17E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB0356B1B291FA800A17E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB035461B291FA800A17E10 = {
+			isa = PBXGroup;
+			children = (
+				1FB035511B291FA800A17E10 /* socrates */,
+				1FB035661B291FA800A17E10 /* socratesTests */,
+				1FB035711B291FA800A17E10 /* socratesUITests */,
+				1FB035501B291FA800A17E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB035501B291FA800A17E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB0354F1B291FA800A17E10 /* socrates.app */,
+				1FB035631B291FA800A17E10 /* socratesTests.xctest */,
+				1FB0356E1B291FA800A17E10 /* socratesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB035511B291FA800A17E10 /* socrates */ = {
+			isa = PBXGroup;
+			children = (
+				1FB035521B291FA800A17E10 /* AppDelegate.swift */,
+				1FB035541B291FA800A17E10 /* ViewController.swift */,
+				1FB035561B291FA800A17E10 /* Main.storyboard */,
+				1FB035591B291FA800A17E10 /* Assets.xcassets */,
+				1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */,
+				1FB0355E1B291FA800A17E10 /* Info.plist */,
+			);
+			path = socrates;
+			sourceTree = "<group>";
+		};
+		1FB035661B291FA800A17E10 /* socratesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB035671B291FA800A17E10 /* socratesTests.swift */,
+				1FB035691B291FA800A17E10 /* Info.plist */,
+			);
+			path = socratesTests;
+			sourceTree = "<group>";
+		};
+		1FB035711B291FA800A17E10 /* socratesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB035721B291FA800A17E10 /* socratesUITests.swift */,
+				1FB035741B291FA800A17E10 /* Info.plist */,
+			);
+			path = socratesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB0354E1B291FA800A17E10 /* socrates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB035771B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socrates" */;
+			buildPhases = (
+				1FB0354B1B291FA800A17E10 /* Sources */,
+				1FB0354C1B291FA800A17E10 /* Frameworks */,
+				1FB0354D1B291FA800A17E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = socrates;
+			productName = socrates;
+			productReference = 1FB0354F1B291FA800A17E10 /* socrates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FB035621B291FA800A17E10 /* socratesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB0357A1B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socratesTests" */;
+			buildPhases = (
+				1FB0355F1B291FA800A17E10 /* Sources */,
+				1FB035601B291FA800A17E10 /* Frameworks */,
+				1FB035611B291FA800A17E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB035651B291FA800A17E10 /* PBXTargetDependency */,
+			);
+			name = socratesTests;
+			productName = socratesTests;
+			productReference = 1FB035631B291FA800A17E10 /* socratesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FB0356D1B291FA800A17E10 /* socratesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB0357D1B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socratesUITests" */;
+			buildPhases = (
+				1FB0356A1B291FA800A17E10 /* Sources */,
+				1FB0356B1B291FA800A17E10 /* Frameworks */,
+				1FB0356C1B291FA800A17E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB035701B291FA800A17E10 /* PBXTargetDependency */,
+			);
+			name = socratesUITests;
+			productName = socratesUITests;
+			productReference = 1FB0356E1B291FA800A17E10 /* socratesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB035471B291FA800A17E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SocratesTeam;
+				TargetAttributes = {
+					1FB0354E1B291FA800A17E10 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1FB035621B291FA800A17E10 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FB0354E1B291FA800A17E10;
+					};
+					1FB0356D1B291FA800A17E10 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FB0354E1B291FA800A17E10;
+					};
+				};
+			};
+			buildConfigurationList = 1FB0354A1B291FA800A17E10 /* Build configuration list for PBXProject "socrates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB035461B291FA800A17E10;
+			productRefGroup = 1FB035501B291FA800A17E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB0354E1B291FA800A17E10 /* socrates */,
+				1FB035621B291FA800A17E10 /* socratesTests */,
+				1FB0356D1B291FA800A17E10 /* socratesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB0354D1B291FA800A17E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB0355D1B291FA800A17E10 /* LaunchScreen.storyboard in Resources */,
+				1FB0355A1B291FA800A17E10 /* Assets.xcassets in Resources */,
+				1FB035581B291FA800A17E10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB035611B291FA800A17E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB0356C1B291FA800A17E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB0354B1B291FA800A17E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB035551B291FA800A17E10 /* ViewController.swift in Sources */,
+				1FB035531B291FA800A17E10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB0355F1B291FA800A17E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB035681B291FA800A17E10 /* socratesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB0356A1B291FA800A17E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB035731B291FA800A17E10 /* socratesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB035651B291FA800A17E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB0354E1B291FA800A17E10 /* socrates */;
+			targetProxy = 1FB035641B291FA800A17E10 /* PBXContainerItemProxy */;
+		};
+		1FB035701B291FA800A17E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB0354E1B291FA800A17E10 /* socrates */;
+			targetProxy = 1FB0356F1B291FA800A17E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB035561B291FA800A17E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB035571B291FA800A17E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB0355C1B291FA800A17E10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB035751B291FA800A17E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FB035761B291FA800A17E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB035781B291FA800A17E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = socrates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socrates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FB035791B291FA800A17E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = socrates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socrates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FB0357B1B291FA800A17E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = socratesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socratesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socrates.app/socrates";
+			};
+			name = Debug;
+		};
+		1FB0357C1B291FA800A17E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = socratesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socratesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socrates.app/socrates";
+			};
+			name = Release;
+		};
+		1FB0357E1B291FA800A17E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = socratesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socratesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = socrates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1FB0357F1B291FA800A17E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = socratesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SocratesTeam.socratesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = socrates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB0354A1B291FA800A17E10 /* Build configuration list for PBXProject "socrates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB035751B291FA800A17E10 /* Debug */,
+				1FB035761B291FA800A17E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB035771B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socrates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB035781B291FA800A17E10 /* Debug */,
+				1FB035791B291FA800A17E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB0357A1B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socratesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB0357B1B291FA800A17E10 /* Debug */,
+				1FB0357C1B291FA800A17E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB0357D1B291FA800A17E10 /* Build configuration list for PBXNativeTarget "socratesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB0357E1B291FA800A17E10 /* Debug */,
+				1FB0357F1B291FA800A17E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB035471B291FA800A17E10 /* Project object */;
+}
