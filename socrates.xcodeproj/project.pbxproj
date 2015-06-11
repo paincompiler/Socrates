@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FB035531B291FA800A17E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035521B291FA800A17E10 /* AppDelegate.swift */; };
 		1FB035551B291FA800A17E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035541B291FA800A17E10 /* ViewController.swift */; };
-		1FB035581B291FA800A17E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB035561B291FA800A17E10 /* Main.storyboard */; };
 		1FB0355A1B291FA800A17E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB035591B291FA800A17E10 /* Assets.xcassets */; };
-		1FB0355D1B291FA800A17E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */; };
 		1FB035681B291FA800A17E10 /* socratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035671B291FA800A17E10 /* socratesTests.swift */; };
 		1FB035731B291FA800A17E10 /* socratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB035721B291FA800A17E10 /* socratesUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		1FB0354F1B291FA800A17E10 /* socrates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socrates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB035521B291FA800A17E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB035541B291FA800A17E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FB035571B291FA800A17E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FB035591B291FA800A17E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FB0355C1B291FA800A17E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FB0355E1B291FA800A17E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB035631B291FA800A17E10 /* socratesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socratesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB035671B291FA800A17E10 /* socratesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				1FB035521B291FA800A17E10 /* AppDelegate.swift */,
 				1FB035541B291FA800A17E10 /* ViewController.swift */,
-				1FB035561B291FA800A17E10 /* Main.storyboard */,
 				1FB035591B291FA800A17E10 /* Assets.xcassets */,
-				1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */,
 				1FB0355E1B291FA800A17E10 /* Info.plist */,
 			);
 			path = socrates;
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB0355D1B291FA800A17E10 /* LaunchScreen.storyboard in Resources */,
 				1FB0355A1B291FA800A17E10 /* Assets.xcassets in Resources */,
-				1FB035581B291FA800A17E10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,25 +299,6 @@
 			targetProxy = 1FB0356F1B291FA800A17E10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1FB035561B291FA800A17E10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FB035571B291FA800A17E10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1FB0355B1B291FA800A17E10 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FB0355C1B291FA800A17E10 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FB035751B291FA800A17E10 /* Debug */ = {
